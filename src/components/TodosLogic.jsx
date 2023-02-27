@@ -1,8 +1,9 @@
+import { useState } from "react";
 import InputTodo from "@/components/InputTodo";
 import TodosList from "@/components/TodosList";
 
 const TodosLogic = () => {
-  const todos = [
+  const [todos, setTodos] = useState([
     {
       id: 1,
       title: "Setup development environment",
@@ -18,12 +19,43 @@ const TodosLogic = () => {
       title: "Deploy to live server",
       completed: false,
     },
-  ];
+  ]);
+
+  const handleChange = (id) => {
+    setTodos((prevState) =>
+      prevState.map((todo) => {
+        if (todo.id === id) {
+          return {
+            ...todo,
+            completed: !todo.completed,
+          };
+        }
+        return todo;
+      })
+    );
+  };
+
+  const addTodoItem = (title) => {
+    const newTodo = {
+      id: 4,
+      title: title,
+      completed: false,
+    };
+    setTodos([...todos, newTodo]);
+  };
+
+  const delTodo = (id) => {
+    setTodos([
+      ...todos.filter((todo) => {
+        return todo.id !== id;
+      }),
+    ]);
+  };
 
   return (
     <div>
-      <InputTodo />
-      <TodosList todosProps={todos} />
+      <InputTodo addTodoItem={addTodoItem} />
+      <TodosList todosProps={todos} handleChange={handleChange} delTodo={delTodo} />
     </div>
   );
 };
