@@ -1,10 +1,11 @@
 <a name="readme-top"></a>
 
+
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/65084923/220454148-be6c369f-a646-4471-83fe-181539e27320.png" alt="logo" width="400"  height="auto" />
+  <img src="" alt="logo" width="400"  height="auto" />
   <br/>
-  <img src="https://user-images.githubusercontent.com/65084923/220199943-ce6cd5da-d55e-4149-a0ac-8c588216d81f.png" alt="logo" width="300"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/65084923/221706474-1ec353fc-9a3f-4a0f-a772-da8b2cafb1f0.png" alt="logo" width="300"  height="auto" />
   <br/>
   <img src="https://user-images.githubusercontent.com/65084923/220200035-01fa5e08-af6a-495b-b597-55157a2b7d95.gif" alt="logo" />
   <br/>
@@ -167,8 +168,8 @@ My mother. Let's play to the end together ❤️ with 🧠
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](<a href="https://github.com/chelobotix/Math-Magicians-Chelobotix/blob/logic/licence">License</a>) licensed.
+This project is [MIT](<a href="https://github.com/chelobotix/To-Do-List-React/blob/setting-up/licence">License</a>) licensed.
 
-<a href="https://github.com/chelobotix/Math-Magicians-Chelobotix/blob/logic/licence">License</a>
+<a href="https://github.com/chelobotix/To-Do-List-React/blob/setting-up/licence">License</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
