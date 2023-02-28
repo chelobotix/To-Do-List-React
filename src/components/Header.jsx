@@ -1,9 +1,8 @@
-const Header = () => {
-  return (
-    <header>
-      <h1>todos</h1>
-      <p>Items will persist in the browser local storage</p>
-    </header>
-  );
-};
+import styles from '@/styles/Header.module.css';
+
+const Header = () => (
+  <header style={styles} className={styles.header}>
+    <h1>todos</h1>
+  </header>
+);
 export default Header;

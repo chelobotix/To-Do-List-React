@@ -1,12 +1,13 @@
-import Header from "@/components/Header";
-import TodosLogic from "@/components/TodosLogic";
+/* eslint-disable import/extensions */
+import Header from '@/components/Header';
+import TodosLogic from '@/components/TodosLogic';
 
-const TodoApp = () => {
-  return (
-    <>
+const TodoApp = () => (
+  <div className="wrapper">
+    <div className="todos">
       <Header />
       <TodosLogic />
-    </>
-  );
-};
+    </div>
+  </div>
+);
 export default TodoApp;
