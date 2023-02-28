@@ -1,11 +1,8 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
 
-  <img src="" alt="logo" width="400"  height="auto" />
-  <br/>
-  <img src="https://user-images.githubusercontent.com/65084923/221706474-1ec353fc-9a3f-4a0f-a772-da8b2cafb1f0.png" alt="logo" width="300"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/65084923/221706474-1ec353fc-9a3f-4a0f-a772-da8b2cafb1f0.png" alt="logo" width="200"  height="auto" />
   <br/>
   <img src="https://user-images.githubusercontent.com/65084923/220200035-01fa5e08-af6a-495b-b597-55157a2b7d95.gif" alt="logo" />
   <br/>
@@ -78,18 +75,20 @@ To get a local copy up and use as a template for your own portafolio site, follo
 Clone this repository to your desired folder:
 
 ```sh
-  https://github.com/chelobotix/Math-Magicians-Chelobotix.git
+  https://github.com/chelobotix/To-Do-List-React.git
 ```
 
 ## 🤖 Available Scripts <a name="available-scripts"></a>
 
-This project use a Vite REact Template:
+This project use a Vite React Template.
 
-### `npm create vite@latest`
+Install the needed dependencies:
+
+### `npm i`
 
 In the project directory, you can run:
 
-### `npm i`
+### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
@@ -97,24 +96,13 @@ Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run dev`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +148,7 @@ My mother. Let's play to the end together ❤️ with 🧠
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **Is there any restriction to adapting the page to other porpouse??**
+- **Is there any restriction to adapting the page to other purpose??**
 
   - No problem.
 

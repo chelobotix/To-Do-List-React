@@ -24,9 +24,6 @@ const InputTodo = ({ addTodoItem }) => {
     <>
       <form onSubmit={handleSubmit} className="form-container">
         <input type="text" placeholder="Add Todo..." className="input-text" value={title} onChange={handleChange} />
-        <button type="button" className="input-submit">
-          Submit
-        </button>
       </form>
       <span className="submit-warning">{message}</span>
     </>
